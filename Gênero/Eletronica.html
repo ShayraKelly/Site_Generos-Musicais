@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=n, initial-scale=1.0">
+    <title>Eletrônica</title>
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+        }
+
+        header{
+            display: block;
+            position: relative;
+            width: 100%;
+            height: 20vh;
+        }
+
+        .genero{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 90px;
+            display: block;
+            position: absolute;
+            left: 50%;
+            top: 90%;
+            transform: translate(-50%, -10%);
+            text-align: center;
+            font-size: 50px;
+        }
+        
+        #menu{
+            display: block;
+            position: absolute;
+            width: 100%;
+            top: 0;
+        }
+
+        #menu ul{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            flex-direction: row;
+            background-color: #000;
+        }
+
+        #menu ul li a{
+            display: block;
+            padding: 1em .8em;
+            position: relative;
+            font-size: 20px;
+            color: #fff;
+            text-decoration: none;
+            transition: .3s;
+            text-transform: uppercase   ;
+        }
+        #menu ul li a:hover{
+            background-color: #fff;
+            color: #000;
+        }
+
+        main{
+            margin-top: 10%;
+        }
+
+        .paragrafo{
+            font-size: 30px;
+            text-align: justify;
+        }
+
+        .apps h2{
+            display: block;
+            text-align: center;
+            font-size: 40px;
+            margin-top: 5%;
+            margin-bottom: 2.5%;
+        }
+
+        .opcoes{
+            display: flex;
+            position: relative;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            gap: 1%;
+        }
+
+        .elemento{
+            width: 3.5em;
+            height: 3.5em;
+            overflow: hidden;
+        }
+
+        .elemento a img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            background-color: white;
+        }
+
+        .assinatura span{
+            display: block;
+            color: rgb(95, 163, 193);
+            font-size: 18px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: right;
+            margin-top: 1%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+
+        <div class="genero">
+            <h1>Eletrônica</h1>
+        </div>
+
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="R&B.html">R&B</a></li>
+                    <li><a href="Pop.html">Pop</a></li>
+                    <li><a href="Rock.html">Rock</a></li>
+                    <li><a href="Eletronica.html">Eletrônica</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+
+    <main>
+ 
+        <div class="paragrafo">
+
+            <p>A música eletrônica, nos moldes que conhecemos hoje, começou a ser desenvolvida em 1948, quando o músico francês, Pierre Schaeffer passou a unir instrumentos diferentes e gravações de toca-discos em uma única música, fazendo surgir posteriormente as mixagens sonoras.</p>
+            <p>Schaeffer fazia ainda o que os DJs de hoje utilizam como recurso, que é modificar os sons através da manipulação da velocidade ou alternância no sentido da gravação original.</p>
+            <br>
+            <p>Em 1951, a música eletrônica passou a emergir na Alemanha e ali foi criado o primeiro estúdio totalmente dedicado a esse tipo de som. Os alemães Werner Meyer-Eppler, Robert Beyer e Herbert Eimer foram os responsáveis por esse projeto, mas diferente dos franceses que usavam objetos sonoros e instrumentos tradicionais para criarem os sons, eles desenvolviam suas técnicas através de osciladores elétricos.</p>
+            <p>A popularização da música eletrônica no mundo se deu com o surgimento dos sintetizadores digitais, mas foi a partir do uso de softwares e computadores pessoais que o ritmo virou febre. Graças a esses equipamentos, passou a ser possível utilizar recursos de áudio e emular funcionalidades próprias de instrumentos musicais ou de sintetizadores.</p>
+            
+        </div>
+
+        <div class="apps">
+            <h2>Onde ouvir esse gênero</h2>
+
+            <div class="opcoes">
+                <div class="elemento">
+                    <a href="https://open.spotify.com" target="_blank"><img src="../Imagens/logo_spotify.png" alt="Logo do Spotify"></a>
+                </div>
+                <div class="elemento">
+                    <a href="https://music.apple.com/br/browse" target="_blank"><img src="../Imagens/logo_apple-music.png" alt="Logo do Apple Music"></a>
+                </div>
+                <div class="elemento"><a href="https://music.youtube.com" target="_blank"><img src="../Imagens/logo_youtube-music.png" alt="Logo do Youtube Music"></a></div>
+                <div class="elemento"><a href="https://www.deezer.com/br/" target="_blank"><img src="../Imagens/logo_deezer.png" alt="Logo do Deezer"></a></div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="assinatura">
+            <span>Shayra Kelly&copy;</span>
+        </div>
+    </footer>
+   
+</body>
+</html>

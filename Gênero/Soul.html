@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=n, initial-scale=1.0">
+    <title>R&B</title>
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+        }
+
+        header{
+            display: block;
+            position: relative;
+            width: 100%;
+            height: 20vh;
+        }
+
+        .genero{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 90px;
+            display: block;
+            position: absolute;
+            left: 50%;
+            top: 90%;
+            transform: translate(-50%, -10%);
+            text-align: center;
+            font-size: 50px;
+        }
+        
+        #menu{
+            display: block;
+            position: absolute;
+            width: 100%;
+            top: 0;
+        }
+
+        #menu ul{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            flex-direction: row;
+            background-color: #000;
+        }
+
+        #menu ul li a{
+            display: block;
+            padding: 1em .8em;
+            position: relative;
+            font-size: 20px;
+            color: #fff;
+            text-decoration: none;
+            transition: .3s;
+            text-transform: uppercase   ;
+        }
+        #menu ul li a:hover{
+            background-color: #fff;
+            color: #000;
+        }
+
+        main{
+            margin-top: 10%;
+        }
+
+        .paragrafo{
+            font-size: 30px;
+            text-align: justify;
+        }
+
+        .apps h2{
+            display: block;
+            text-align: center;
+            font-size: 40px;
+            margin-top: 5%;
+            margin-bottom: 2.5%;
+        }
+
+        .opcoes{
+            display: flex;
+            position: relative;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            gap: 1%;
+        }
+
+        .elemento{
+            width: 3.5em;
+            height: 3.5em;
+            overflow: hidden;
+        }
+
+        .elemento a img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            background-color: white;
+        }
+
+        .assinatura span{
+            display: block;
+            color: rgb(95, 163, 193);
+            font-size: 18px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: right;
+            margin-top: 1%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+
+        <div class="genero">
+            <h1>R&B</h1>
+        </div>
+
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="R&B.html">R&B</a></li>
+                    <li><a href="Pop.html">Pop</a></li>
+                    <li><a href="Rock.html">Rock</a></li>
+                    <li><a href="Eletronica.html">Eletrônica</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+
+    <main>
+ 
+        <div class="paragrafo">
+
+            <p>A música soul surgiu no final dos anos 1950, como uma mistura entre os gêneros R&B, gospel e jazz, sendo um estilo mais animado e dançante. Sua produção partiu principalmente da população afro-americana, sendo também muito bem aceito e disseminado entre os negros.</p>
+            <p>Não à toa, o soul está fortemente associado à luta pelos Direitos Civis. Nas décadas de 1950 até 1960, os EUA possuíam rígidas leis de segregação racial. Portanto, havia espaços separados para brancos e para negros. Quase tudo estava submetido a esse divisão – transportes públicos, bebedouros e até universidades. A própria lei defendia que as raças não deveriam se misturar, sendo os brancos claramente privilegiados e reservados aos melhores espaços e oportunidades.</p>
+            <br>
+            <p>Nesse contexto, temos nomes de importantes revolucionários como Malcolm X e Martin Luther King, que lutaram por direitos igualitários para os negros até a morte, quando foram assassinados em 1965 e 1968, respectivamente.</p>    
+            <p>Por isso, o soul se tornou muito mais do que um gênero musical, sendo também um grito de guerra contra o racismo e genocídio das pessoas negras. Por meio de canções animadas, acompanhadas de palmas ritmadas, formava-se uma resistência contra a opressão branca, reafirmando o orgulho negro da população.</p>
+            <p>Assim, não é surpresa que os maiores nomes do estilo são de artistas negros, que ficaram marcados para toda a história</p>
+            
+        </div>
+
+        <div class="apps">
+            <h2>Onde ouvir esse gênero</h2>
+
+            <div class="opcoes">
+                <div class="elemento">
+                    <a href="https://open.spotify.com" target="_blank"><img src="../Imagens/logo_spotify.png" alt="Logo do Spotify"></a>
+                </div>
+                <div class="elemento">
+                    <a href="https://music.apple.com/br/browse" target="_blank"><img src="../Imagens/logo_apple-music.png" alt="Logo do Apple Music"></a>
+                </div>
+                <div class="elemento"><a href="https://music.youtube.com" target="_blank"><img src="../Imagens/logo_youtube-music.png" alt="Logo do Youtube Music"></a></div>
+                <div class="elemento"><a href="https://www.deezer.com/br/" target="_blank"><img src="../Imagens/logo_deezer.png" alt="Logo do Deezer"></a></div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="assinatura">
+            <span>Shayra Kelly&copy;</span>
+        </div>
+    </footer>
+   
+</body>
+</html>

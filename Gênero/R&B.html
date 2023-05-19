@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=n, initial-scale=1.0">
+    <title>R&B</title>
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+        }
+
+        header{
+            display: block;
+            position: relative;
+            width: 100%;
+            height: 20vh;
+        }
+
+        .genero{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 90px;
+            display: block;
+            position: absolute;
+            left: 50%;
+            top: 90%;
+            transform: translate(-50%, -10%);
+            text-align: center;
+            font-size: 50px;
+        }
+        
+        #menu{
+            display: block;
+            position: absolute;
+            width: 100%;
+            top: 0;
+        }
+
+        #menu ul{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            flex-direction: row;
+            background-color: #000;
+        }
+
+        #menu ul li a{
+            display: block;
+            padding: 1em .8em;
+            position: relative;
+            font-size: 20px;
+            color: #fff;
+            text-decoration: none;
+            transition: .3s;
+            text-transform: uppercase   ;
+        }
+        #menu ul li a:hover{
+            background-color: #fff;
+            color: #000;
+        }
+
+        main{
+            margin-top: 10%;
+        }
+
+        .paragrafo{
+            font-size: 30px;
+            text-align: justify;
+        }
+
+        .apps h2{
+            display: block;
+            text-align: center;
+            font-size: 40px;
+            margin-top: 5%;
+            margin-bottom: 2.5%;
+        }
+
+        .opcoes{
+            display: flex;
+            position: relative;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            gap: 1%;
+        }
+
+        .elemento{
+            width: 3.5em;
+            height: 3.5em;
+            overflow: hidden;
+        }
+
+        .elemento a img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            background-color: white;
+        }
+
+        .assinatura span{
+            display: block;
+            color: rgb(95, 163, 193);
+            font-size: 18px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: right;
+            margin-top: 1%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+
+        <div class="genero">
+            <h1>R&B</h1>
+        </div>
+
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="R&B.html">R&B</a></li>
+                    <li><a href="Pop.html">Pop</a></li>
+                    <li><a href="Rock.html">Rock</a></li>
+                    <li><a href="Eletronica.html">Eletrônica</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+
+    <main>
+ 
+        <div class="paragrafo">
+
+            <p>Antes de tudo, é importante entender o momento e o local em que o Rhythm and Blues surgiu. Dentre as décadas de 1940 e 1950, quando o Estados Unidos enfrentava um cenário pós-guerra, com o consumismo aumentando e a população negra migrando para as grandes cidades, as barreiras entre o que era conhecido como “música branca” e “música negra” começaram a cair, embora o preconceito racial ainda persistisse.</p>
+            <br>
+            <p>Dessa forma, o R&B, sigla para Rhythm and Blues, passou a ser usada pela indústria fonográfica para nomear o que antes era chamado de “race music”, um termo de tom pejorativo que designava músicas criadas por artistas afro americanos.</p>
+            <p>Sendo assim, podemos dizer que o R&B está totalmente ligado ao que conhecemos até hoje como Black Music e que, com a popularização da guitarra elétrica, juntamente com a influência de ritmos como jazz, soul, funk, blues, rock, música gospel americana, negro spiritual, jump blues, e até mesmo da música cubana, o gênero conquistou o público estadunidense e, em seguida, o público mundial.</p>
+            
+        </div>
+
+        <div class="apps">
+            <h2>Onde ouvir esse gênero</h2>
+
+            <div class="opcoes">
+                <div class="elemento">
+                    <a href="https://open.spotify.com" target="_blank"><img src="../Imagens/logo_spotify.png" alt="Logo do Spotify"></a>
+                </div>
+                <div class="elemento">
+                    <a href="https://music.apple.com/br/browse" target="_blank"><img src="../Imagens/logo_apple-music.png" alt="Logo do Apple Music"></a>
+                </div>
+                <div class="elemento"><a href="https://music.youtube.com" target="_blank"><img src="../Imagens/logo_youtube-music.png" alt="Logo do Youtube Music"></a></div>
+                <div class="elemento"><a href="https://www.deezer.com/br/" target="_blank"><img src="../Imagens/logo_deezer.png" alt="Logo do Deezer"></a></div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="assinatura">
+            <span>Shayra Kelly&copy;</span>
+        </div>
+    </footer>
+   
+</body>
+</html>
